@@ -13,20 +13,10 @@ body {
   background-color: #000;
   font-family: 'Poppins', sans-serif;
 }
-.list {
-  position: relative;
-}
-.list {
-  position: relative;
-}
 .list h2{
-  position: relative;
   color: #fff;
   font-weight: 500;
   letter-spacing: 1px;
-}
-.list ul {
-  position: relative;
 }
 .list ul li {
   position: relative;

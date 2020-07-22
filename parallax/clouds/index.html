@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="banner">
+    <h2 id="text">Heaven</h2>
+    <div class="clouds">
+      <img src="./img/cloud1.png" style="--i:1;" alt="">
+      <img src="./img/cloud2.png" style="--i:2;" alt="">
+      <img src="./img/cloud3.png" style="--i:3;" alt="">
+      <img src="./img/cloud4.png" style="--i:4;" alt="">
+      <img src="./img/cloud5.png" style="--i:5;" alt="">
+      <img src="./img/cloud1.png" style="--i:10;" alt="">
+      <img src="./img/cloud2.png" style="--i:9;" alt="">
+      <img src="./img/cloud3.png" style="--i:8;" alt="">
+      <img src="./img/cloud4.png" style="--i:7;" alt="">
+      <img src="./img/cloud5.png" style="--i:6;" alt="">
+    </div>
+  </div>
+  <section>
+    <h2>Realistic Cloud Banner Parallax Effects</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis aspernatur non voluptate unde labore voluptates doloribus quam vel! Optio deserunt quod veritatis? Non in voluptates excepturi, distinctio dignissimos iusto quis!
+    Fugit itaque fuga saepe dolores amet nulla reprehenderit tempora? Perferendis ab delectus asperiores est et tempore dolorem illo corrupti, molestias odit, culpa dolore soluta necessitatibus, omnis rerum obcaecati? Asperiores, veritatis.
+    Quia beatae esse velit nulla deleniti sunt labore eligendi, voluptate illum quae neque facilis qui excepturi hic tempore nihil rerum eos quaerat tempora quas nobis quibusdam, veritatis, at perferendis. Aperiam.
+    Iste aspernatur quasi voluptas quisquam sapiente consectetur ab et suscipit dolorum expedita, dignissimos labore, voluptatibus repellat corporis odit vitae ex officiis laborum voluptates similique eos, nihil magni minus temporibus. Molestiae?
+    Atque soluta facilis voluptates adipisci dolorem odio? Ipsam excepturi quas fuga officiis totam sapiente velit animi, eos rem soluta quaerat, quod aliquam voluptas earum cum natus tenetur tempore! Rerum, perferendis.
+    Rem consectetur dolorum numquam expedita quas delectus, qui modi facilis distinctio ad ipsum ut eligendi sit accusantium, cumque praesentium minima nostrum quaerat consequatur ratione obcaecati. Expedita veritatis incidunt optio blanditiis.
+    Molestias officia nisi optio exercitationem odio vero id tenetur quae nobis amet perspiciatis porro cupiditate a ex distinctio minima totam nostrum ut, natus architecto fugiat. Nostrum, ipsam consequatur? Explicabo, illo?
+    Repellat, perspiciatis maiores a porro dolor suscipit ea, hic harum amet fugiat iusto quidem doloremque totam laudantium tenetur? Ipsam aliquid quibusdam odio vel odit minima dignissimos laboriosam debitis quidem asperiores.
+    Illum, animi ipsum dolore ipsa soluta labore dolor delectus ab deserunt, vitae beatae, numquam omnis quia! Dolor molestiae minus repudiandae odit voluptatem qui pariatur nobis dolores et beatae, eveniet ab?
+    Eius totam saepe quae quam tenetur nobis fuga maiores vel facere necessitatibus fugit quia aliquam blanditiis dolores neque modi dolore quasi atque, est aperiam? Aut amet natus nulla ea perferendis!</p>
+  </section>
+  <script>
+    let text = document.getElementById('text');
+    console.log(text);
+    window.addEventListener('scroll', function() {
+      let value = window.scrollY;
+      text.style.marginBottom = value * 2 + 'px';
+    })
+  </script>
+</body>
+</html>
